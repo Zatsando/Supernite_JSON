@@ -1,0 +1,53 @@
+{
+  "_embedded": {
+    "programs": [
+      {
+        "name": "BRAVE BROWSER",
+        "links": "https://laptop-updates.brave.com/latest/winx64",
+        "id": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/1"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/1"
+          }
+        }
+      },
+      {
+        "name": "DISCORD",
+        "links": "https://discord.com/api/download?platform=win",
+        "id": 2,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/2"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/2"
+          }
+        }
+      },
+      {
+        "name": "Chrome",
+        "links": "https://www.google.com/chrome/thank-you.html?statcb=1&installdataindex=empty&defaultbrowser=0",
+        "id": 3,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/3"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/3"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/programs"
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/programs"
+    }
+  }
+}
