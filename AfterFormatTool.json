@@ -2,34 +2,9 @@
   "_embedded": {
     "programs": [
       {
-        "name": "BRAVE BROWSER",
-        "links": "https://laptop-updates.brave.com/latest/winx64",
-        "id": 1,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/1"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/1"
-          }
-        }
-      },
-      {
-        "name": "DISCORD",
-        "links": "https://discord.com/api/download?platform=win",
-        "id": 2,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/2"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/2"
-          }
-        }
-      },
-      {
-        "name": "Chrome",
-        "links": "https://www.google.com/chrome/thank-you.html?statcb=1&installdataindex=empty&defaultbrowser=0",
+        "name": "Brave",
+        "links": "choco install brave -y",
+        "description": "Three times faster than Chrome. Better privacy by default than Firefox. Uses 35% less battery on mobile.",
         "id": 3,
         "_links": {
           "self": {
@@ -37,6 +12,104 @@
           },
           "program": {
             "href": "http://localhost:8080/programs/3"
+          }
+        }
+      },
+      {
+        "name": "Mozilla Firefox",
+        "links": "choco install firefox -y",
+        "description": "Get the browser that protects what’s important.",
+        "id": 4,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/4"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/4"
+          }
+        }
+      },
+      {
+        "name": "Google Chrome",
+        "links": "choco install chrome -y",
+        "description": "Google Chrome is a cross-platform web browser developed by Google.",
+        "id": 5,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/5"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/5"
+          }
+        }
+      },
+      {
+        "name": "Vivaldi",
+        "links": "choco install vivaldi -y",
+        "description": "Vivaldi browser is a fast, private and secure browser that blocks ads and trackers.",
+        "id": 6,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/6"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/6"
+          }
+        }
+      },
+      {
+        "name": "Discord",
+        "links": "choco install discord -y",
+        "description": "Discord is the easiest way to talk over voice, video, and text.",
+        "id": 7,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/7"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/7"
+          }
+        }
+      },
+      {
+        "name": "Telegram",
+        "links": "choco install telegram -y",
+        "description": "Telegram is a freeware, cross-platform, cloud-based instant messaging software and application service.",
+        "id": 8,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/8"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/8"
+          }
+        }
+      },
+      {
+        "name": "Skype",
+        "links": "choco install skype -y",
+        "description": "Stay in touch! Free online calls, messaging, affordable international calling to mobiles or landlines and instant online meetings on Skype.",
+        "id": 9,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/9"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/9"
+          }
+        }
+      },
+      {
+        "name": "VLC",
+        "links": "choco install vlc -y",
+        "description": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.",
+        "id": 10,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/programs/10"
+          },
+          "program": {
+            "href": "http://localhost:8080/programs/10"
           }
         }
       }
