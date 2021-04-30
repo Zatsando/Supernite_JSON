@@ -1,126 +1,207 @@
 {
-  "_embedded": {
-    "programs": [
-      {
-        "name": "Brave",
-        "links": "choco install brave -y",
-        "description": "Three times faster than Chrome. Better privacy by default than Firefox. Uses 35% less battery on mobile.",
-        "id": 3,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/3"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/3"
-          }
-        }
-      },
-      {
-        "name": "Mozilla Firefox",
-        "links": "choco install firefox -y",
-        "description": "Get the browser that protects what’s important.",
-        "id": 4,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/4"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/4"
-          }
-        }
-      },
-      {
-        "name": "Google Chrome",
-        "links": "choco install chrome -y",
-        "description": "Google Chrome is a cross-platform web browser developed by Google.",
-        "id": 5,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/5"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/5"
-          }
-        }
-      },
-      {
-        "name": "Vivaldi",
-        "links": "choco install vivaldi -y",
-        "description": "Vivaldi browser is a fast, private and secure browser that blocks ads and trackers.",
-        "id": 6,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/6"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/6"
-          }
-        }
-      },
-      {
-        "name": "Discord",
-        "links": "choco install discord -y",
-        "description": "Discord is the easiest way to talk over voice, video, and text.",
-        "id": 7,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/7"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/7"
-          }
-        }
-      },
-      {
-        "name": "Telegram",
-        "links": "choco install telegram -y",
-        "description": "Telegram is a freeware, cross-platform, cloud-based instant messaging software and application service.",
-        "id": 8,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/8"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/8"
-          }
-        }
-      },
-      {
-        "name": "Skype",
-        "links": "choco install skype -y",
-        "description": "Stay in touch! Free online calls, messaging, affordable international calling to mobiles or landlines and instant online meetings on Skype.",
-        "id": 9,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/9"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/9"
-          }
-        }
-      },
-      {
-        "name": "VLC",
-        "links": "choco install vlc -y",
-        "description": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.",
-        "id": 10,
-        "_links": {
-          "self": {
-            "href": "http://localhost:8080/programs/10"
-          },
-          "program": {
-            "href": "http://localhost:8080/programs/10"
-          }
-        }
-      }
-    ]
-  },
-  "_links": {
-    "self": {
-      "href": "http://localhost:8080/programs"
+  "apps": [
+    {
+      "name": "ungoogled-chromium",
+      "command": "choco install ungoogled-chromium -y",
+      "description": "ungoogled-chromium is a set of configuration flags, patches, and custom scripts.",
+      "id": 0,
+      "icon": "https://img.icons8.com/color/48/000000/chromium.png"
     },
-    "profile": {
-      "href": "http://localhost:8080/profile/programs"
+    {
+      "name": "Spotify",
+      "command": "choco install spotify -y",
+      "description": "Spotify is a new way to listen to music.",
+      "id": 1,
+      "icon": "https://img.icons8.com/fluent/50/000000/spotify.png"
+    },
+    {
+      "name": "Windows Terminal",
+      "command": "choco install microsoft-windows-terminal -y",
+      "description": "Windows Terminal.",
+      "id": 2,
+      "icon": "https://img.icons8.com/fluent/48/000000/console.png"
+    },
+    {
+      "name": "Brave",
+      "command": "choco install brave -y",
+      "description": "Three times faster than Chrome. Better privacy by default than Firefox. Uses 35% less battery on mobile.",
+      "id": 3,
+      "icon": "https://img.icons8.com/color/48/000000/brave-web-browser.png"
+    },
+    {
+      "name": "Mozilla Firefox",
+      "command": "choco install firefox -y",
+      "description": "Get the browser that protects what’s important.",
+      "id": 4,
+      "icon": "https://img.icons8.com/color/48/000000/firefox.png"
+    },
+    {
+      "name": "Google Chrome",
+      "command": "choco install chrome -y",
+      "description": "Google Chrome is a cross-platform web browser developed by Google.",
+      "id": 5,
+      "icon": "https://img.icons8.com/fluent/48/000000/chrome.png"
+    },
+    {
+      "name": "Vivaldi",
+      "command": "choco install vivaldi -y",
+      "description": "Vivaldi browser is a fast, private and secure browser that blocks ads and trackers.",
+      "id": 6,
+      "icon": "https://img.icons8.com/dusk/64/000000/vivaldi-web-browser.png"
+    },
+    {
+      "name": "Discord",
+      "command": "choco install discord -y",
+      "description": "Discord is the easiest way to talk over voice, video, and text.",
+      "id": 7,
+      "icon": "https://img.icons8.com/fluent/48/000000/discord-logo.png"
+    },
+    {
+      "name": "Telegram",
+      "command": "choco install telegram -y",
+      "description": "Telegram is a freeware, cross-platform, cloud-based instant messaging software and application service.",
+      "id": 8,
+      "icon": "https://img.icons8.com/fluent/48/000000/telegram-app.png"
+    },
+    {
+      "name": "Skype",
+      "command": "choco install skype -y",
+      "description": "Stay in touch! Free online calls, messaging, affordable international calling to mobiles or landlines and instant online meetings on Skype.",
+      "id": 9,
+      "icon": "https://img.icons8.com/fluent/48/000000/skype.png"
+    },
+    {
+      "name": "VLC",
+      "command": "choco install vlc -y",
+      "description": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.",
+      "id": 10,
+      "icon": "https://img.icons8.com/color/48/000000/vlc.png"
+    },
+    {
+      "name": "Git",
+      "command": "choco install git.install -y",
+      "description": "Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate user interfaces for experienced Git users and novices alike.",
+      "id": 11,
+      "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+      "name": "Python",
+      "command": "choco install python -y",
+      "description": "Python 3 is a programming language that lets you work more quickly and integrate your systems more effectively.",
+      "id": 12,
+      "icon": "https://img.icons8.com/color/48/000000/python.png"
+    },
+    {
+      "name": "7-Zip",
+      "command": "choco install 7zip -y",
+      "description": "7-Zip is a file archiver with a high compression ratio.",
+      "id": 13,
+      "icon": "https://img.icons8.com/dusk/48/000000/7zip.png"
+    },
+    {
+      "name": "WinRAR",
+      "command": "choco install winrar -y",
+      "description": "WinRAR is a powerful archive manager.",
+      "id": 14,
+      "icon": "https://img.icons8.com/fluent/48/000000/winrar.png"
+    },
+    {
+      "name": "Notepad++",
+      "command": "choco install notepadplusplus.install -y",
+      "description": "Notepad++ is a free source code editor and Notepad replacement that supports several languages.",
+      "id": 15,
+      "icon": "https://img.icons8.com/color/48/000000/notepad-plus-plus.png"
+    },
+    {
+      "name": "Malwarebytes",
+      "command": "choco install malwarebytes -y",
+      "description": "Malwarebytes crushes the latest threats before others even recognize they exist.",
+      "id": 16,
+      "icon": "https://img.icons8.com/fluent/48/000000/malwarebytes.png"
+    },
+    {
+      "name": "JDK 8.0.211",
+      "command": "choco install jdk8 -y",
+      "description": "Java allows you to play online games, chat with people around the world, calculate your mortgage interest, and view images in 3D, just to name a few.",
+      "id": 17,
+      "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+    },
+    {
+      "name": "GIMP",
+      "command": "choco install gimp -y",
+      "description": "GNU Image Manipulation Program.",
+      "id": 18,
+      "icon": "https://img.icons8.com/fluent/48/000000/gimp.png"
+    },
+    {
+      "name": "Visual Studio Code",
+      "command": "choco install vscode -y",
+      "description": "Build and debug modern web and cloud applications.",
+      "id": 19,
+      "icon": "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+    },
+    {
+      "name": "Mozilla Thunderbird",
+      "command": "choco install thunderbird -y",
+      "description": "A free email client from Mozilla.",
+      "id": 20,
+      "icon": "https://img.icons8.com/fluent/48/000000/composing-mail.png"
+    },
+    {
+      "name": "Atom",
+      "command": "choco install atom -y",
+      "description": "A hackable text editor for the 21st Century.",
+      "id": 21,
+      "icon": "https://img.icons8.com/clouds/48/000000/atom-editor.png"
+    },
+    {
+      "name": "Dropbox",
+      "command": "choco install dropbox -y",
+      "description": "Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere.",
+      "id": 22,
+      "icon": "https://img.icons8.com/cute-clipart/48/000000/dropbox.png"
+    },
+    {
+      "name": "Putty",
+      "command": "choco install putty.install -y",
+      "description": "PuTTY is a free implementation of Telnet and SSH for Windows and Unix platforms, along with an xterm terminal emulator.",
+      "id": 23,
+      "icon": "https://img.icons8.com/color/48/000000/workstation.png"
+    },
+    {
+      "name": "TeamViewer",
+      "command": "choco install teamviewer -y",
+      "description": "Empowering secure remote desktop access and support.",
+      "id": 24,
+      "icon": "https://img.icons8.com/fluent/48/000000/teamviewer.png"
+    },
+    {
+      "name": "Zoom",
+      "command": "choco install zoom -y",
+      "description": "Zoom unifies cloud video conferencing, simple online meetings, group messaging, and a software-defined conference room solution into one easy-to-use platform.",
+      "id": 25,
+      "icon": "https://img.icons8.com/cute-clipart/64/000000/zoom.png"
+    },
+    {
+      "name":"Vim",
+      "command": "choco install vim -y",
+      "description": "Vim is an advanced text editor that seeks to provide the power of the de-facto Unix editor 'Vi', with a more complete feature set.",
+      "id": 26,
+      "icon": "https://www.vim.org/images/vim_header.gif"
+    },
+    {
+      "name": "VirtualBox",
+      "command": "choco install virtualbox -y",
+      "description": "VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.",
+      "id": 27,
+      "icon": "https://img.icons8.com/color/48/000000/virtualbox.png"
+    },
+    {
+      "name": "Go Programming Language",
+      "command": "choco install golang -y",
+      "description": "The Go programming language is an open source project to make programmers more productive.",
+      "id": 28,
+      "icon": "https://img.icons8.com/ultraviolet/48/000000/go.png"
     }
-  }
+  ]
 }
